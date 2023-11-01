@@ -1,6 +1,6 @@
 # Orca Security AWS onboarding quick note
 ## Full scan
-In order to connect your AWS Account with Orca Security, you need to create 6 customer managed IAM policies and 1 AWS managed policy - you can find a CloudFormation temaplate [here]().
+In order to connect your AWS Account with Orca Security, you need to create 6 customer managed IAM policies and 1 AWS managed policy - you can find a CloudFormation temaplate [here](https://github.com/hisashiyamaguchi/note-orca-security-aws-onboarding/blob/main/globalDefaultPolicy.json).
  <br>
  <div align="center">
  <img src="./images/Orca IAM Role.png" width=50%>
@@ -11,7 +11,7 @@ In order to connect your AWS Account with Orca Security, you need to create 6 cu
 ## Control plane only scan
 If you want to scan only control plane for your AWS Account, Orca backend team can configure to skip data plane scanning for your AWS Account.
 
-1. Create Orca IAM Role with a pre-defined [CloudFormation template](). Once the stack has been created, grab your ARN.
+1. Create Orca IAM Role with a pre-defined [CloudFormation template](https://github.com/hisashiyamaguchi/note-orca-security-aws-onboarding/blob/main/globalDefaultPolicy.json). Once the stack has been created, grab your ARN.
  <br>
  <div align="center">
  <img src="./images/ARN.png" width=50%>
