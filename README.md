@@ -8,6 +8,18 @@ In order to connect your AWS Account with Orca Security, you need to create 6 cu
  <br>
  <br>
 
+ Once the stack has been created, grab your ARN and put it on Orca UI, and hit "Connect Account". Your AWS Account is going to be connected with your Orca Tenant, and the initial scanning is going to start automatically.
+ <br>
+ <div align="center">
+ <img src="./images/ARN.png" width=50%>
+ <br>
+ <br>
+ <img src="./images/Connect.png" width=50%>
+ </div>
+ <br>
+ <br>
+
+
 ## Control plane only scan
 If you want to scan only control plane for your AWS Account, Orca backend team can configure to skip data plane scanning for your AWS Account.
 
@@ -26,6 +38,9 @@ If you want to scan only control plane for your AWS Account, Orca backend team c
 <br>
 
 3. Orca backend team is going to configure data plane scanning skip with a special tuning parameter. Once it's completed, any snapshots are not going to be taken, and any data plane scannings are not going to be happened on your AWS Account. 
+<br>
+<br>
+
 
 #  Issue Reporting
 If you have found a bug or if you have updates request, please report them at this repository issues section.
