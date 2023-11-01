@@ -20,7 +20,7 @@ In order to connect your AWS Account with Orca Security, you need to create 6 cu
  <br>
 
 
-## Control plane only scan
+## Control Plane only scan
 If you want to scan only control plane for your AWS Account, Orca backend team can configure to skip data plane scanning for your AWS Account.
 
 1. Create Orca IAM Role with a pre-defined [CloudFormation template](https://github.com/hisashiyamaguchi/note-orca-security-aws-onboarding/blob/main/globalDefaultPolicy.json). Once the stack has been created, grab your ARN.
