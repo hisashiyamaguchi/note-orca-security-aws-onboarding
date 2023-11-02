@@ -32,6 +32,7 @@ If you want to scan only control plane for your AWS Account, Orca backend team c
 
 2. Onboard your AWS Account with your Orca Tenant via [API](https://docs.orcasecurity.io/docs/create-cloud-account). You need to put your **"name", "display_name", "aws$role_arn", "external_id"** . As for **"external_id"**, contact Orca representative - he/she can give your external_id.
 <br>
+
 ```json
 {
   "name": "hogehoge",
@@ -52,6 +53,7 @@ If you want to scan only control plane for your AWS Account, Orca backend team c
   }
 }
 ```
+
 <br>
 <div align="center">
 <img src="./images/Postman Sample.png" width=50%>
